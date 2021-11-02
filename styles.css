@@ -1,11 +1,31 @@
 @import url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
 body{
     background-color: #f5f5f5;
     color: #333333;
-
     font-size: 16px;
     font-weight: normal;
-    font-family: 'Open Sans';
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+}
+header,footer{
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+    width: 98%;
+    background-color: #FFFFFF;
+    min-height: 30px;
+    height: 50px;
+}
+
+header{
+    border-bottom: 2px solid silver;
+    padding: 1%;
+    
+}
+
+footer{
+    border-top: 2px solid silver;
+    margin-top: 10px;
+    padding: 1%;
+    
 }
 
 a{
@@ -19,7 +39,7 @@ a:active{
     color:blue;
 }
 a:visited{
-    color:gray;
+    color: #003e69;
 }
 
 .avatar{
@@ -40,12 +60,109 @@ a:visited{
     color: #003e69
 }
 .container2{
-    max-width: 400px;
-    margin: auto;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 1000px;
+    max-width: 100%;
     color: #003e69
 }
 .box-model{
-    background:#004169 ;
+    background-color:#003e69;
     height: 35px;
-    width: 2560px;
+    width: 100%;
+    
+}
+.header1{
+    float: right;
+}
+
+img{
+    
+    background-color: #FFFFFF;
+    min-height: 50px;
+}
+.information{
+    font-size: 15px;
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    color: #003e69
+}
+.flight{
+    font-size: 15px;
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    color: #003e69
+}
+.media{
+    font-size: 15px;
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    color: #003e69
+}
+.help{
+    font-size: 15px;
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    color: #003e69
+}
+.skyair{
+    font-size: 15px;
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+    margin-left: 900px;
+    margin-bottom: 5px;
+    color: #003e69
+}
+.lsky{
+    font-size: 15px;
+    font-family: 'Open-Sans',Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 5px;
+    color: #003e69
+}
+/*Menu navbar-top*/
+.dws-menu*{
+    margin: 0;
+    padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+    list-style: none;
+}
+.dws-menu > ul{
+display: flex;
+justify-content: center;
+}
+.dws-menu > ul li a{
+    display: block;
+    background: #FFFFFF;
+    padding: 5px 30px 5px 30px;
+    font-size: 15px;
+    color:#004069;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.dws-menu li a:hover{
+    color: orange;
+    box-shadow: 1px 5px 10px -5px white;
+    transition: all 0.3s ease;
+}
+.dws-menu li ul{
+    position: absolute;
+    min-width: 100px;
+    display: none;
+}
+
+.dws-menu li>ul li a{
+    padding: 10px;
+    text-transform:  none;
+    background: #FFFFFF;
+    
+}
+.dws-menu li:hover>ul{
+    display: block;
 }
